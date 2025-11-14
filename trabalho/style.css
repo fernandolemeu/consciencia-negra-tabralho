@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #f0f0f0;
+    font-family: 'Bahiana';
+    text-decoration: none;
+    margin-top: 60px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Bahiana';
+    font-size: 100px;
+    color: #ffcc00;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.personalidades {
+    padding: 60px 20px;
+    background-color: #0d0d0d;
+}
+
+.personalidades h2 {
+    text-align: center;
+    color: #ffcc00;
+    font-size: 66px;
+    margin-bottom: 40px;
+    font-family: 'Bahiana';
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #8B4513;
+    border-radius: 10px;
+    width: 380px;
+    overflow: hidden;
+}
+
+.card-imagem img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-color: #8B4513;
+}
+
+.card-conteudo {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-conteudo h3 {
+    color: #ffcc00; 
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.card-conteudo p {
+    color: #ffffff; 
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.inicio {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.texto h1 {
+    font-size: 50px;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.imagem img {
+    margin-top: 40px;
+    max-width: 1000px;
+    border-radius: 40px;
+}
+
+        .cultura {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .cultura h2 {
+            text-align: center;
+            color: #ffcc00;
+            font-size: 102px;
+            margin-bottom: 20px;
+            font-family: 'Bahiana';
+        }
+
+        .cultura p {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 50px;
+            font-size: 18px;
+            color: #ffffff;
+            font-family: sans-serif;
+        }
+
+        .cultura-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .cultura-card {
+            background: linear-gradient(145deg, #8B4513, #8B4513);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .cultura-card-img {
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .cultura-card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        .cultura-card-content {
+            padding: 25px;
+        }
+
+        .cultura-card h3 {
+            color: #ffcc00;
+            font-size: 104px;
+            margin-bottom: 15px;
+            font-family: 'Bahiana', serif;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .cultura-card h3 {
+            font-size: 50px;
+        }
+
+        .cultura-card p {
+            text-align: left;
+            color: #ffffff;
+            margin-bottom: 0;
+        }
+
+.acoes-reflexoes {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.acoes-reflexoes h2 {
+    color: #ffcc00;
+    font-size: 102px;
+    margin-bottom: 20px;
+    font-family: 'Bahiana';
+}
+
+.acoes-reflexoes p {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.acoes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.acao-item {
+    background: linear-gradient(145deg, #8B4513, #8B4513);
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.acao-content {
+    padding: 25px;
+}
+
+.acao-item h3 {
+    color: #ffcc00;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Bahiana', serif;
+    text-align: center;
+}
+
+.acao-item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.acao-item li {
+    color: #ffffff;
+    padding: 8px 0;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+
+.reflexao-final {
+    background: linear-gradient(145deg, #8B4513, #8B4513);
+    border-radius: 15px;
+    padding: 40px;
+    margin-top: 50px;
+    text-align: center;
+    border: 3px solid #ffcc00;
+}
+
+.reflexao-final h3 {
+    color: #ffcc00;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Bahiana', serif;
+}
+
+.reflexao-final p {
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.reflexao-final .destaque {
+    font-style: italic;
+    color: #ffcc00;
+    font-size: 18px;
+    border-left: 3px solid #ffcc00;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+footer{
+    padding: 20px;
+    font-size: 20px;
+}
